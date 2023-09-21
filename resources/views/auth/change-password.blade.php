@@ -16,8 +16,8 @@
                         <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column mx-lg-0 mx-auto">
                             <div class="card card-plain">
                                 <div class="card-header pb-0 text-start">
-                                    <h4 class="font-weight-bolder">Change password</h4>
-                                    <p class="mb-0">Set a new password for your email</p>
+                                    <h4 class="font-weight-bolder">Ubah Password</h4>
+                                    <p class="mb-0">Password baru untuk email kamu</p>
                                 </div>
                                 <div class="card-body">
                                     <form role="form" method="POST" action="{{ route('change.perform') }}">
@@ -36,7 +36,7 @@
                                             @error('confirm-password') <p class="text-danger text-xs pt-1"> {{$message}} </p>@enderror
                                         </div>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Send Reset Link</button>
+                                            <button type="submit" class="btn btn-lg btn-primary btn-lg w-100 mt-4 mb-0">Kirim link reset</button>
                                         </div>
                                     </form>
                                 </div>
